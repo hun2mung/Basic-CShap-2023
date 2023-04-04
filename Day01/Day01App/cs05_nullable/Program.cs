@@ -11,7 +11,7 @@ namespace cs05_nullable
         static void Main(string[] args)     
         {
             // Nullable!!!
-            int? a= null;      // int a 는 nul 값을 담을 수 없다. -> C#6.0 Nullable
+            int? a= null;      // int a 는 null 값을 담을 수 없다. -> C#6.0 Nullable
             Console.WriteLine(a == null);
             //Console.WriteLine(a.GetType());   // 예외발생. a에 숫자 담으면 됨
 

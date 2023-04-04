@@ -22,7 +22,9 @@ namespace cs09_nullcondition
             //{
             //    bar = null;
             //}
-            int? bar = myfoo?.member
+
+            // 위의 아홉줄 모두 축약시킴
+            int? bar = myfoo?.member;
         }
     }
     class Foo
