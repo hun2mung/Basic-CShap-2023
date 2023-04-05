@@ -21,19 +21,20 @@ namespace wf03_property
         private void Form_Load(object sender, EventArgs e)
         {
             gbxmain.Text = "컨트롤 학습";
-            var fonts = FontFamily.Families; // 내 OS 폰트명 가져오기
+            var fonts = FontFamily.Families.ToList(); // 내 OS 폰트명 가져오기
             foreach (var font in fonts)
             {
                 CboFontFamily.Items.Add(font.Name);
             }
             //글자크기 min,max 값 지정
             NudFontSize.Minimum = 5; NudFontSize.Maximum = 40;
+           
             //텍스트박스 초기화
-            
-            TxtResult.Text = "Hello! I'm Lee Dong Hun";
+            TxtResult.Text = ("Hello! I'm Lee Dong Hun", Font.Italic=true);
             ChkBold.Checked = true;
 
-            NudFontSize.Value = 10; // 글자체 크기를 9로 지정
+            NudFontSize.Value = 20; // 글자체 크기를 9로 지정
+            
         }
 
         /// <summary>
