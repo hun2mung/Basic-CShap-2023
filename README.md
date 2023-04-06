@@ -22,7 +22,8 @@
     - WimForms 컨트롤
     - 리스트뷰, 데이터그리드 추가 학습 필요!!!
 
-![3일차 윈폼학습 결과]
+
+3일차 윈폼학습 결과
 
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day03-image.png" width = "600">
 
