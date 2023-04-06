@@ -8,8 +8,16 @@
     - 기본 문법
 
 # 2일차
-- C# 기본
+- C# 기본(변수, 메소드, 연산자, 제어문)
 
 - Win App
     - Winforms vs WPF 개요
     - Winforms 기초
+
+# 3일차
+- C# 기본
+    - 클래스
+
+- Win App
+    - WimForms 컨트롤
+    

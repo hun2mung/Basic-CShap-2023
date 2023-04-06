@@ -28,9 +28,9 @@ namespace wf03_property
             }
             //글자크기 min,max 값 지정
             NudFontSize.Minimum = 5; NudFontSize.Maximum = 40;
-           
+
             //텍스트박스 초기화
-            TxtResult.Text = ("Hello! I'm Lee Dong Hun", Font.Italic=true);
+            TxtResult.Text = "Hello! I'm Lee Dong Hun";
             ChkBold.Checked = true;
 
             NudFontSize.Value = 20; // 글자체 크기를 9로 지정
