@@ -7,14 +7,14 @@
     - Visual Studio 상 C# 구성
     - 기본 문법
 
-# 2일차
+## 2일차
 - C# 기본(변수, 메소드, 연산자, 제어문)
 
 - Win App
     - Winforms vs WPF 개요
     - Winforms 기초
 
-# 3일차
+## 3일차
 - C# 기본
     - 클래스
 
@@ -27,3 +27,23 @@
 
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day03-image.png" width = "600">
 
+## 4일차
+- C# 기본
+    - 클래스 상속 계속
+    - 인터페이스
+
+- Win App
+    - WinForms 컨트롤 마무리
+    - WinForms 파일복사 앱
+    - 로그인 앱 실습
+
+로그인 앱 실습
+
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day05-login.png" width = "600">
+
+
+## 5일차
+- C# 기본
+- Win App
+    - WinForms 디자인 오류 시 해결방법
+    - Window 탐색기 만들기
