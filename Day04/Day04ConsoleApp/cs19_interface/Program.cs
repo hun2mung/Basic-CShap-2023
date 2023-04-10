@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace cs19_interface
 {
-    interface ILogger   // 인터페이스
+    interface ILogger   // 인터페이스 : 어떤 메소드를 사용하겠다고 선언
     {
+        //int Page { get; set; }
         void WriteLog(string log);
     }
 
@@ -77,7 +78,7 @@ namespace cs19_interface
     {
         static void Main(string[] args)
         {
-            ILogger logger = new ConsolLogger();
+            ILogger logger = new ConsolLogger();        // 부모클래스에 할당하는 느낌
             logger.WriteLog("안녕~!");
 
             IFormattableLogger logger2 = new ConsoleLogger2();

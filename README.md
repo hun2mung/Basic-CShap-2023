@@ -44,6 +44,8 @@
 
 ## 5일차
 - C# 기본
+    - 인터페이스, 추상클래스
 - Win App
     - WinForms 디자인 오류 시 해결방법
-    - Window 탐색기 만들기
+    - Window 탐색기 만들기 중
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day06-searcher.png" width = "600">

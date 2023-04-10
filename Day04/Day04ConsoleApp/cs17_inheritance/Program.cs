@@ -137,7 +137,7 @@ namespace cs17_inheritance
                 midDog.Bark();
             }
             
-            //Dogs dogs = new Mammal();
+            //Dogs dogs = new Mammal(); // 안됨
             Dogs dog2 = new Dogs();
             Cats cat2 = new Cats();
             Elephants el2 = new Elephants();
