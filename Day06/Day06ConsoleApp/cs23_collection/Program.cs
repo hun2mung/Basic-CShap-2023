@@ -43,6 +43,7 @@ namespace cs23_collection
                     Array.Resize<int>(ref array, index + 1);
                     Console.WriteLine("MyArrayList Resize {0}", array.Length);  // 개발 완료 후 주석 처리
                 }
+                array[index] = value;
             }
 
         }
