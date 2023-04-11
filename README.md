@@ -49,3 +49,20 @@
     - WinForms 디자인 오류 시 해결방법
     - Window 탐색기 만들기 중
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day06-searcher.png" width = "600">
+
+## 6일차
+- C# 기본
+    - 컬렉션
+    - 일반화(Generic) 프로그래밍
+    - 예외처리
+    - 대리자, 이벤트
+
+- Win App
+    - 탐색기 마무리
+        - 추가 개발 리스트!
+            - 컨텍스트 메뉴(마우스 오른쪽 메뉴)
+            - 보호된 운영체제 폴더 숨기기
+            - 리스트뷰 폴더 더블클릭 시 하위폴더로
+    - DB핸들링
+    - 책 대여점 (BookRentalShop)DB 사용하여 WinForms 앱개발
+    - 실습 예제
