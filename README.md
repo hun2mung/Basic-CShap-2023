@@ -66,3 +66,5 @@
     - DB핸들링
     - 책 대여점 (BookRentalShop)DB 사용하여 WinForms 앱개발
     - 실습 예제
+
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day06-searcher1.png" width = "600"> 
