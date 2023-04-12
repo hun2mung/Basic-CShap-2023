@@ -68,3 +68,15 @@
     - 실습 예제
 
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day06-searcher1.png" width = "600"> 
+
+## 7일차
+- C# 기본
+    - 대리자, 이벤트
+    - 람다식
+    - 애트리뷰트
+    - 파일 핸들링
+    - LINQ, 리플렉션, dynamic 등은 추가 개인공부 필요!!!
+- Win App
+    - DB 핸들링
+    - SDI vs MDI
+    - BookRentalShop DB 사용 WinForms 앱개발
