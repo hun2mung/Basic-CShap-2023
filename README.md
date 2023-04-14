@@ -93,7 +93,7 @@
 
 심플 메모장
 
-<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day08-memo.png" width = "600"> 
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day08-memoji.png" width = "600"> 
 
 ## 9일차
 - C# 기본
