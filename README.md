@@ -84,12 +84,22 @@
 ## 8일차
 - C# 기본
     - 파일핸들링
-    - 스레드 / 태스크
-    - 가비지 컬렉션
+    - 윈폼 메모장(파일 핸들링)
 - Win App
     - BookRentalShop DB 사용 WinForms 앱개발
+        - WinForms MDI
+        - MySQL.Data Lib DB 연동
     - 실습예제
 
 심플 메모장
 
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day08-memo.png" width = "600"> 
+
+## 9일차
+- C# 기본
+    - 스레드 / 태스크
+    - 가비지 컬렉션
+
+- Win App
+    - BookRentalShop 만들기 계속
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day09-bookrentalshop-del.png" width = "600"> 
