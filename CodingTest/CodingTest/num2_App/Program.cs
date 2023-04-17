@@ -41,7 +41,7 @@ namespace num2_App
     {
         internal virtual void Recharge()
         {
-            Console.WriteLine("달리면서 배터리를 충전합니다");
+            Console.WriteLine("달리면서 배터리를 충전합니다");   // 오버라이딩되면서 무시됨
         }
     }
 
@@ -51,7 +51,7 @@ namespace num2_App
 
         internal override void Recharge()
         {
-            Console.WriteLine("달리면서 배터리를 충전합니다");
+            Console.WriteLine("달리면서 배터리를 충전합니다");   // Recharge 메소드 실제 출력!!!
         }
 
     }
