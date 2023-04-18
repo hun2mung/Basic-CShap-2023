@@ -1,20 +1,16 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace num1_App
 {
-    class Boiler
+    class Boiler    // Boiler 클래스 만들기! 
     {
-        private byte voltage;
+        private byte voltage;   // 리턴 값 변수 선언.
         private int temperature;
 
         public string Brand;
-        public byte Voltage
+        public byte Voltage     // 프로퍼티 활용하여 조건 걸기!
         {
-            get { return this.voltage; }
+            get { return this.voltage; }    // 리턴 값
             set
             {
                 if (value == 110 ||  value == 220)
@@ -62,7 +58,6 @@ namespace num1_App
 
             Boiler kitturami1 = new Boiler { Brand = "귀뚜라미", Voltage = 0, Temperature = 1000};
             kitturami1.PrintAll();
-
         }
     }
 }

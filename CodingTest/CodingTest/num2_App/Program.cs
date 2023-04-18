@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace num2_App
 {
-    public class Car
+    public class Car // 부모 클래스 정의
     {
         internal string Name;
         internal string Marker;
@@ -37,7 +37,7 @@ namespace num2_App
         }
     }
 
-    public class ElectricCar : Car
+    public class ElectricCar : Car  // 자식 클래스
     {
         internal virtual void Recharge()
         {
@@ -45,11 +45,11 @@ namespace num2_App
         }
     }
 
-    internal class HybridCar : ElectricCar
+    internal class HybridCar : ElectricCar  // 자식 클래스의 자식 클래스
     {
 
 
-        internal override void Recharge()
+        internal override void Recharge()   // 오버라이딩(재정의)
         {
             Console.WriteLine("달리면서 배터리를 충전합니다");   // Recharge 메소드 실제 출력!!!
         }

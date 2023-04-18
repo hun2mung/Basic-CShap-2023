@@ -103,3 +103,12 @@
 - Win App
     - BookRentalShop 만들기 계속
 <img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day09-bookrentalshop-del.png" width = "600"> 
+
+## 10일차
+- Win App
+    - BookRentalShop 만들기 마무리
+
+- 코딩 테스트
+
+책대여점 프로그램 마무리
+<img src = "https://raw.githubusercontent.com/hun2mung/Basic-CShap-2023/main/images/day10-bookrentalshop-done.png" width = "600"> 

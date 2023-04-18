@@ -9,11 +9,11 @@ namespace num3_App
     internal class Program
     {
         static void Main(string[] args)
-        {
-            var color = new Dictionary<string, string>()
+        {   // 딕셔너리 사용
+            var color = new Dictionary<string, string>    // Dictionary<string, string> color = new Dictionary<string, string>
             {
-                {"Red", "빨간색" },
-                {"Orange","주황색" },
+                {"Red", "빨간색" },    // {키, 값}
+                {"Orange","주황색" },  // color.ADD("Orange", "주황색"),
                 {"Yellow","노란색" },
                 {"Green", "초록색" },
                 {"Blue","파란색" },
@@ -23,7 +23,7 @@ namespace num3_App
 
             Console.Write("무지개 색은 ");
 
-            foreach (var value in color.Values)
+            foreach (string value in color.Values)  // foreach문 
             { 
                 Console.Write($"{value}, "); 
             }
